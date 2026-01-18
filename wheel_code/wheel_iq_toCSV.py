@@ -43,9 +43,9 @@ def log_row():
     csv_file.flush()
 
 # Run test
-print("Input vel = 20")
+print("Input vel = 30")
 odrv0.axis1.requested_state = AXIS_STATE_CLOSED_LOOP_CONTROL
-odrv0.axis1.controller.input_vel = 20
+odrv0.axis1.controller.input_vel = 30
 
 for _ in range(300):
     log_row()
