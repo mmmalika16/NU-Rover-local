@@ -56,7 +56,7 @@ odrv0.axis1.requested_state = 3 # MOTOR_CALIBRATION = 4 (0x4) && AXIS_STATE_FULL
 time.sleep(15)
 odrv0.axis1.motor.config.pre_calibrated = True
 odrv0.axis1.encoder.config.pre_calibrated = True
-odrv0.axis0.config.startup_encoder_offset_calibration = True
+odrv0.axis1.config.startup_encoder_offset_calibration = True
 print('Full Calibration Sequence for motor axis1')
 
 try:
